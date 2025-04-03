@@ -19,3 +19,6 @@ InfraDDS provides the CDI Operator, which supports dynamic device scaling for Ku
 
 
 # How To Contribute
+This project welcomes contributions and suggestions. We are happy to have the Community involved via submission of Issues and Pull Requests (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement. PRs can be reviewed by by any number of people, and a maintainer may accept.
+
+See CONTRIBUTING and GitHub Basic Process for more details.
