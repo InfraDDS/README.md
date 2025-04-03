@@ -14,7 +14,8 @@ This InfraDDS project will address this whitespace and will work with the Dynami
 - Provide implementation examples to validate the architectures/APIs
 
 # InfraDDS Project Backgrounder
-A cloud data-centric infrastructure is emerging in the market. This new infrastructure element, such as cloud data center services and IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS), will require more dynamic composability with various types of PCIe cards, such as GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory. These components will need to be composed/decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabric to dynamically support a combination of host server scale-up/scale-down and application scale-out/scale-in in a Kubernetes cluster.
+A cloud data-centric infrastructure is emerging in the market. This new infrastructure element, such as cloud data center services and IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS), will require more dynamic composability with various types of PCIe cards, such as GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory. These components will need to be composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabric to dynamically support a combination of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
+InfraDDS provides the CDI Operator, which supports dynamic device scaling for Kubernetes.
 
 
 # How To Contribute
