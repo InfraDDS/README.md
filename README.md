@@ -1,22 +1,21 @@
 # Infrastracture for Dynamic Device Scaling(InfraDDS) project vision statement
 
-The objective of the InfraDDS initiative is to foster a community-driven, standards-based open ecosystem for next-generation architectures and frameworks based on Composable Disaggregated Infrastructure technology.
-Composable Disaggregated Infrastructure (CDI) is a technology that allows data center operators to achieve the cost, availability, and sustainability benefits of disaggregated cloud computing using on-premises equipment.
+The objective of the InfraDDS initiative is to foster a community-driven, standards-based open ecosystem for next-generation architectures and frameworks built on Composable Disaggregated Infrastructure technology.
+Composable Disaggregated Infrastructure enables data center operators to realize the cost-efficiency, availability, and sustainability advantages of disaggregated cloud computing while utilizing on-premises equipment.
+However, there remains a gap between Kubernetes and composable systems, posing challenges for achieving more dynamic composability in line with Kubernetes' cloud-native environment.
 
-There is a whitespace between Kubernetes and the CDI systems that challenges more dynamic composability to meet the Kubernetes cloud-native environment.
-
-This InfraDDS project will address this whitespace and will work with the Dynamic Resource Allocation project, Auto-scaler project, and Scheduler project.
+The InfraDDS project aims to bridge this gap by collaborating with the Dynamic Resource Allocation, Auto-scaler, and Scheduler projects.
 
 # InfraDDS Project Goals
-- Create community-driven standards-based open ecosystem for the CDI-like technologies
-- Create vendor agnostic framework and architecture for the CDI-based software stacks
-- Reuse existing or define a set of new common APIs for the CDI-like technologies when required
+- Create a community-driven, standards-based open ecosystem for composable resource technologies
+- Develop a vendor-agnostic framework and architecture for composable resource software stacks
+- Reuse existing APIs or define a new set of common APIs for composable resource technologies as needed
 - Provide implementation examples to validate the architectures/APIs
 
 # InfraDDS Project Backgrounder
-A cloud data-centric infrastructure is emerging in the market. This new infrastructure element, such as cloud data center services and IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS), will require more dynamic composability with various types of PCIe cards, such as GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory. These components will need to be composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabric to dynamically support a combination of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
-InfraDDS provides the CDI Operator, which supports dynamic device scaling for Kubernetes.
-
+A cloud data-centric infrastructure is emerging in the market. New infrastructure elements, such as cloud data center services and the IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS), require more dynamic composability with various types of PCIe-connected devices, including GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory.
+These components must be dynamically composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabrics, in order to support flexible combinations of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
+InfraDDS provides the Kubernetes Operator, which enables dynamic device scaling in Kubernetes environments.
 
 # How To Contribute
 This project welcomes contributions and suggestions. We are happy to have the Community involved via submission of Issues and Pull Requests (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement. PRs can be reviewed by by any number of people, and a maintainer may accept.
