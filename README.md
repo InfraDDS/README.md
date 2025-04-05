@@ -13,9 +13,9 @@ The InfraDDS project aims to bridge this gap by collaborating with the Dynamic R
 - Provide implementation examples to validate the architectures/APIs
 
 # InfraDDS Project Backgrounder
-A cloud data-centric infrastructure is emerging in the market. New infrastructure elements, such as cloud data center services and the IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS), require more dynamic composability with various types of PCIe-connected devices, including GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory.
+A cloud data-centric infrastructure is emerging in the market. New infrastructure elements in cloud data center services and the IOWN Global Forum's Data-Centric Infrastructure as a Service (DCIaaS) require more dynamic composability with various types of PCIe-connected devices, including GPUs, DPUs/IPUs/Smart NICs, FPGAs, NVMe, and CXL memory.
 These components must be dynamically composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabrics, in order to support flexible combinations of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
-InfraDDS provides the Kubernetes Operator, which enables dynamic device scaling in Kubernetes environments.
+InfraDDS provides a Kubernetes Operator that enables dynamic device scaling in Kubernetes environments.
 
 # How To Contribute
 This project welcomes contributions and suggestions. We are happy to have the Community involved via submission of Issues and Pull Requests (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement. PRs can be reviewed by by any number of people, and a maintainer may accept.
