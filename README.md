@@ -4,7 +4,7 @@ The objective of the InfraDDS initiative is to foster a community-driven, standa
 Composable Disaggregated Infrastructure enables data center operators to realize the cost-efficiency, availability, and sustainability advantages of disaggregated cloud computing while utilizing on-premises equipment.
 However, there remains a gap between Kubernetes and composable systems, posing challenges for achieving more dynamic composability in line with Kubernetes' cloud-native environment.
 
-The InfraDDS project aims to bridge this gap by collaborating with the Dynamic Resource Allocation, Auto-scaler, and Scheduler projects.
+The InfraDDS project aims to bridge this gap by collaborating with the Dynamic Resource Allocation, Autoscaler, and Scheduler projects.
 
 # InfraDDS Project Goals
 - Create a community-driven, standards-based open ecosystem for composable resource technologies
@@ -17,7 +17,7 @@ A cloud data-centric infrastructure is emerging in the market. New infrastructur
 These components must be dynamically composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabrics, in order to support flexible combinations of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
 InfraDDS provides a Kubernetes Operator that enables dynamic device scaling in Kubernetes environments.
 
-![IOWN2025-InfraDDSreadme](https://github.com/user-attachments/assets/41ed1a3f-ffb1-45f9-b656-bebaccd93ad7)
+![IOWN2025-InfraDDSreadme](https://github.com/user-attachments/assets/f737661c-579f-4cbd-9c2e-d1c23de7f60d)
 
 # How To Contribute
 This project welcomes contributions and suggestions. We are happy to have the Community involved via submission of Issues and Pull Requests (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement. PRs can be reviewed by by any number of people, and a maintainer may accept.
