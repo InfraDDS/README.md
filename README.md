@@ -17,8 +17,7 @@ A cloud data-centric infrastructure is emerging in the market. New infrastructur
 These components must be dynamically composed and decomposed into CPU hosts running Kubernetes nodes via PCIe/CXL switch fabrics, in order to support flexible combinations of host server scale-up/scale-down and application scale-out/scale-in within a Kubernetes cluster.
 InfraDDS provides a Kubernetes Operator that enables dynamic device scaling in Kubernetes environments.
 
-![IOWN2025-InfraDDSreadme](https://github.com/user-attachments/assets/98d7a67a-a06f-464d-8160-5ed3949dc31f)
-
+![IOWN2025-InfraDDSreadme](https://github.com/user-attachments/assets/5b2638f6-72e1-403b-96b0-9cbd80c7cef8)
 
 # How To Contribute
 This project welcomes contributions and suggestions. We are happy to have the Community involved via submission of Issues and Pull Requests (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement. PRs can be reviewed by by any number of people, and a maintainer may accept.
