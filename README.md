@@ -1,6 +1,6 @@
 # Infrastracture for Dynamic Device Scaling(InfraDDS) project vision statement
 
-The objective of the InfraDDS initiative is to foster a community-driven, standards-based open ecosystem for next-generation architectures and frameworks built on [Composable Disaggregated Infrastructure](https://github.com/InfraDDS/README.md/blob/main/SPEC.md) technology.
+The objective of the InfraDDS initiative is to foster a community-driven, standards-based open ecosystem for next-generation architectures and frameworks built on [Composable Disaggregated Infrastructure technology](https://github.com/InfraDDS/README.md/blob/main/SPEC.md).
 Composable Disaggregated Infrastructure enables data center operators to realize the cost-efficiency, availability, and sustainability advantages of disaggregated cloud computing while utilizing on-premises equipment.
 However, there remains a gap between Kubernetes and composable systems, posing challenges for achieving more dynamic composability in line with Kubernetes' cloud-native environment.
 
